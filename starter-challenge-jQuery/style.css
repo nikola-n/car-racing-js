@@ -1,0 +1,110 @@
+#race {
+	text-align: center;
+	background-color: #242021;
+}
+
+h1, h2, h3 {
+	color: 	#a2a2a2;
+}
+
+h3 { font-size: 25px; }
+
+h2 { font-size: 35px; }
+
+h1 { font-size: 50px; }
+
+/*use these below*/
+/*car1 color*/
+/*color: #ffebf7;*/
+
+/*car2 color*/
+/*color: #ba0000;*/
+
+
+.btn {
+	margin-left: 15px;
+	margin-left: 15px;
+	padding:5px 40px;
+	background-color: #242021;
+	border:1px solid #ffebf7;
+	color:#ffebf7;
+    font-weight: bold;
+}
+
+.raceTrack {
+	width:100%;
+	height: 45vh;
+	margin-top:2%;
+	position: relative;
+	margin-bottom: 2%;
+}
+.car1 {
+	position: absolute;
+	bottom:0%;
+	top:11%;
+	width: 18%;
+	z-index: 1;
+}
+.car2{
+	position: absolute;
+	bottom:0%;
+	top:32%;
+	width: 18%;
+	z-index: 1;
+}
+.resultCar1 {
+	color: #ffebf7;
+	font-weight: bold;
+	padding-bottom: 4%;
+
+}
+.resultCar2{
+	font-weight: bold;
+	color: #ba0000;
+	padding-bottom: 4%;
+
+}
+
+.resultsForCar1, .resultsForCar2 {
+	color:	#a2a2a2;	
+	border:2px solid #ffebf7;
+	font-weight: bold;
+	/* display: none; */
+	padding:10px 20px;
+	line-height: 1.9em;
+	font-size: 20px;
+}
+
+.margin-top{
+	margin-top: 8%;
+}
+.startRace{
+	color: white;
+	font-weight: bold;
+	font-size: 150px;
+	text-align: center;
+	position: absolute;
+	top:27%;
+	z-index: 11;
+}
+.endRace {
+	display: none;
+	position: absolute;
+	top:27%;
+	left:43%;
+	z-index:15;
+}
+
+.colorCar1 {
+	color: #ffebf7;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.6em;	
+}
+
+.colorCar2 {
+	color: #ba0000;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.6em;	
+}

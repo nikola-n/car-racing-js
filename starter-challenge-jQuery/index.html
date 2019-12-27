@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Car racing game</title>
+	<meta name="keywords" content="html,css,lekcii">
+	<meta name="description" content="ova e strana za ucenje">
+	<meta name="author" content="Kristijan Bobevski">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Latest compiled and minified BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Local CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Font-awesome 4.7 cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="race">
+	<!-- write your code here -->
+	<div class="container-fluid" id="main">
+		<div class="row">
+			<span class="startRace text-center"></span>
+			<span class="endRace text-center">
+				<img src="/starter-challenge-jQuery/img/finish.gif" alt="">
+			</span>
+			<h1 class="text-center">Car racing game</h1>
+			<button id="raceButton" class="text-center btn">Race!</button>
+			<button id="startButton" class="text-center btn">Start Over</button>
+			<div class="race">
+				<img class="car1" src="/starter-challenge-jQuery/img/car2.gif">
+				<img class="car2" src="/starter-challenge-jQuery/img/car1.gif">
+				<img class="raceTrack" src="/starter-challenge-jQuery/img/raceTrack.jpg">
+			</div>
+			<div class="text-center col-md-6">
+				<h2 style="margin:0;">Results</h2>
+				<table class="firstTable col-md-5 col-md-offset-1" style="margin:0;">
+					<th class=" text-center resultCar1 h3 ">Car 1</th>
+					<br>
+				</table>
+				<table class="secondTable col-md-5 col-md-offset-1">
+					<th class="col-md-6 resultCar2 h3 text-center">Car 2</th>
+				</table>
+			</div>
+
+			<div class="text-center col-md-6">
+				<h3 class="h3element" style="display: none;">Results from the previous time you played this game:</h3>
+				<table class="prevRes col-md-12">
+					
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- jQuery library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	<script src="app.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
